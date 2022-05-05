@@ -59,6 +59,7 @@ button:hover{
     width: 500px;
 }
 .about{
+    position: relative;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -319,6 +320,12 @@ div .footer__links{
 }
 a .footer__links{
     margin-bottom: 15px;
+}
+.orb-canvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 @media (max-width: 1024px) {
     .about {
